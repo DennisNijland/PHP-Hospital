@@ -10,7 +10,8 @@
 	<nav>
 	<ul>
 		<li><a href="<?= URL ?>home/index">Home</a></li>
-		<li><a href="<?= URL ?>client/index">Clients</a></li>
+		<li><a href="<?= URL ?>client/index">Clienten</a></li>
+		<li><a href="<?= URL ?>patient/index">Patienten</a></li>
 
 	</ul>
 	</nav>

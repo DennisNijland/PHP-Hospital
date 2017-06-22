@@ -6,8 +6,8 @@ function getAllClients()
 	$db = openDatabaseConnection();
 
 	$sql = "SELECT * FROM clients
-			JOIN patients ON clients.client_id = patients.patient_id
-			JOIN species ON  species.species_id = patients.client_id";
+			JOIN patients ON clients.client_id = patients.client_id
+			JOIN species ON  patients.species_id = patients.client_id";
 	$query = $db->prepare($sql);
 	$query->execute();
 
