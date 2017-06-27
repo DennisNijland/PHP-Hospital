@@ -21,4 +21,4 @@
 		<?php } ?>
 
 	</table>
-	<a href="<?= URL ?>client/create">Toevoegen</a>
+	<a href="<?= URL ?>patient/create">Toevoegen</a>
